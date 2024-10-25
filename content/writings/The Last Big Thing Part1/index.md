@@ -29,7 +29,7 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 cover:
-    image: "<image path/url>" # image path/url
+    image: "https://larryliu007.github.io/The_Last_Big_Thing/cover.jpg" # image path/url
     alt: "cover" # alt text
     caption: "" # display caption under cover
     relative: true # when using page bundles set this to true
