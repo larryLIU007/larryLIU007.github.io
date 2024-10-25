@@ -1,7 +1,7 @@
 ---
 title: "The Last Big Thing - Crypto Payment Part1"
 summary: It's not happening until we build it.
-images: ["https://larryliu007.github.io/The_Last_Big_Thing/cover.jpeg"]
+images: ["https://larryliu007.github.io/The_Last_Big_Thing/cover.jpg"]
 date: 2024-10-24T11:30:03+00:00
 weight: 1000
 # aliases: ["/first"]
