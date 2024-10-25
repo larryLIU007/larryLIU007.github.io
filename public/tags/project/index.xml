@@ -11,14 +11,14 @@
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2024 11:30:03 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Sep 2022 11:30:03 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/project/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Last Big Thing - Crypto Payment</title>
-      <link>http://localhost:1313/writings/the-second-big-thing/</link>
-      <pubDate>Wed, 03 Jul 2024 11:30:03 +0000</pubDate>
-      <guid>http://localhost:1313/writings/the-second-big-thing/</guid>
-      <description>—— It&amp;#39;s not happening until we build it.</description>
+      <title>Need for Speed: Zero Knowledge</title>
+      <link>http://localhost:1313/writings/need-for-speed/</link>
+      <pubDate>Mon, 05 Sep 2022 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/writings/need-for-speed/</guid>
+      <description>Hardware acceleration is needed to overcome computational bottlenecks and enable widespread adoption.</description>
     </item>
   </channel>
 </rss>

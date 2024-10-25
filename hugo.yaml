@@ -72,8 +72,8 @@ params:
     buttons:
       - name: Writings
         url: /writings/
-      - name: Involvements
-        url: /involvements
+      - name: Friends
+        url: /friends
 
   socialIcons: # optional
     - name: x
@@ -85,17 +85,14 @@ params:
   homeInfoParams:
     Title: "Welcome to Larry's!🧟‍♂️"
     Content: |
-      I'm from China. I majored in economics. Fiction has always been the passion but mom said I would be poor. So I chose to work as an investor. Temporarily.
-
-      Later I became deeply fascinated by crypto and blockchain technologies. I see their potential, and I want to be part of the process. So I started exploring ways to get involved.
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-DTKJNR73EQ"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "LarryNumber"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "LarryNumber"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -124,15 +121,18 @@ menu:
       name: Writings
       url: /writings/
       weight: 1
-    - identifier: involvements
-      name: Involvements
-      url: /involvements/
+    - identifier: friends
+      name: Friends
+      url: /friends/
       weight: 2
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
     noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
