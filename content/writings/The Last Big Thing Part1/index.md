@@ -1,7 +1,7 @@
 ---
 title: "The Last Big Thing - Crypto Payment Part1"
 summary: It's not happening until we build it.
-images: ["https://larryliu007.github.io/The_Last_Big_Thing/cover.jpg"]
+images: ["https://larryliu007.github.io/writings/the-last-big-thing-part1/cover.jpg"]
 date: 2024-10-24T11:30:03+00:00
 weight: 1000
 # aliases: ["/first"]
@@ -33,7 +33,7 @@ cover:
     alt: "cover" # alt text
     caption: "" # display caption under cover
     relative: true # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 # editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
 #    Text: "Feedback" # edit text
