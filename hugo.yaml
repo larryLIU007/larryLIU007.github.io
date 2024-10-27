@@ -72,8 +72,8 @@ params:
     buttons:
       - name: Writings
         url: /writings/
-      - name: Friends
-        url: /friends
+      - name: Backings
+        url: /backings
 
   socialIcons: # optional
     - name: x
@@ -121,9 +121,9 @@ menu:
       name: Writings
       url: /writings/
       weight: 1
-    - identifier: friends
-      name: Friends
-      url: /friends/
+    - identifier: backings
+      name: Backings
+      url: /backings/
       weight: 2
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true

@@ -1,7 +1,7 @@
 ---
 title: "The Last Big Thing - Crypto Payment Part2"
 summary: It's not happening until we build it.
-date: 2024-10-30T11:30:03+00:00
+date: 2024-11-01T11:30:03+00:00
 weight: 999
 # aliases: ["/first"]
 tags: ["Sector"]
@@ -28,11 +28,11 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 cover:
-    image: "<image path/url>" # image path/url
+    image: "cover.jpg" # image path/url
     alt: "" # alt text
     caption: "gfdsdfdsf" # display caption under cover
     relative: true # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 # editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
 #    Text: "Feedback" # edit text
