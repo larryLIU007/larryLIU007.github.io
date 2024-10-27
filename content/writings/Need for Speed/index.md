@@ -34,11 +34,11 @@ ShowWordCount: false
 ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 cover:
-    image: "<image path/url>" # image path/url
+    image: "cover.png" # image path/url
     alt: "" # alt text
     caption: "gfdsdfdsf" # display caption under cover
     relative: true # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: false # only hide on current single page
 # editPost:
 #    URL: "https://github.com/<path_to_repo>/content"
 #    Text: "Feedback" # edit text
