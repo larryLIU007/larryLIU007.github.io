@@ -1,7 +1,7 @@
 ---
 title: "The Last Big Thing - Crypto Payment Part1"
 summary: It's not happening until we build it.
-date: 2024-10-24T11:30:03+00:00
+date: 2024-10-28T10:30:00+08:00
 weight: 1000
 # aliases: ["/first"]
 tags: ["Sector"]
@@ -163,15 +163,15 @@ Digital payments act as a form of disintermediation relative to traditional card
 
 More importantly, the move toward digital payments, as the name suggests, is a digitalization process. ***Many of its benefits are (again) made possible by emerging technologies:***
 
-1. Prevailing of mobile devices and internet -> Convenience and Accessibility
+1. Prevailing of mobile devices and internet -> Convenience and Accessibility  
    The ubiquity of smartphones, user-friendly apps, and expansive internet and mobile networks make digital payments convenient and accessible, driving financial inclusion.
-2. Adoption of tokenization and biometric authentication -> Enhanced Security
+2. Adoption of tokenization and biometric authentication -> Enhanced Security  
    Implementing tokenization and biometric authentication significantly improves digital payment security compared to traditional card payments.
-3. Utilization of cloud computing and digital infrastructure -> Reduced Costs
+3. Utilization of cloud computing and digital infrastructure -> Reduced Costs  
    Leveraging cloud computing and digital infrastructure streamlines transaction processing, minimizing the need for physical infrastructure and reducing fraud-related costs.
-4. Advancement in interoperability and integration -> Seamless User Experience
+4. Advancement in interoperability and integration -> Seamless User Experience  
    APIs, SDKs, and web services, allow digital payment platforms to seamlessly integrate with various digital services, enhancing user experience and encouraging widespread adoption.
-5. Harnessing big data analytics and AI -> Expanded Business Opportunities
+5. Harnessing big data analytics and AI -> Expanded Business Opportunities  
    Payment companies employ big data analytics and AI to gain valuable customer insights, develop targeted strategies, and expand their market presence.
 
 ### 2.2.2 Cutting-edge technology spreads more quickly in less developed areas
