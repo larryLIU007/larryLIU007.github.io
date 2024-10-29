@@ -2,26 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/writings/the-last-big-thing-part2/</loc>
-    <lastmod>2024-10-27T11:30:03+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/writings/the-last-big-thing-part1/</loc>
-    <lastmod>2024-10-24T11:30:03+00:00</lastmod>
+    <lastmod>2024-10-28T10:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writings/need-for-speed/</loc>
     <lastmod>2022-09-05T11:30:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-11-06T11:30:03+00:00</lastmod>
+    <lastmod>2024-11-06T10:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writings/</loc>
-    <lastmod>2024-11-06T11:30:03+00:00</lastmod>
+    <lastmod>2024-11-06T10:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/sector/</loc>
-    <lastmod>2024-10-27T11:30:03+00:00</lastmod>
+    <lastmod>2024-10-28T10:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-10-27T11:30:03+00:00</lastmod>
+    <lastmod>2024-10-28T10:30:00+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
   </url><url>
