@@ -1,7 +1,7 @@
 ---
 title: "The Last Big Thing - Crypto Payment Part2"
 summary: It's not happening until we build it.
-date: 2024-10-30T10:30:00+08:00
+date: 2024-08-30T10:30:00+08:00
 weight: 999
 # aliases: ["/first"]
 tags: ["Sector"]
@@ -38,3 +38,5 @@ cover:
 #    Text: "Feedback" # edit text
 #    appendFilePath: true # to append file path to Edit link
 ---
+
+To be uploaded...
