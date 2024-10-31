@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Oct 2024 10:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 30 Oct 2024 10:30:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Last Big Thing - Crypto Payment Part2</title>
+      <link>http://localhost:1313/writings/the-last-big-thing-part2/</link>
+      <pubDate>Wed, 30 Oct 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/the-last-big-thing-part2/</guid>
+      <description>—— It&amp;#39;s not happening until we build it.</description>
+    </item>
     <item>
       <title>The Last Big Thing - Crypto Payment Part1</title>
       <link>http://localhost:1313/writings/the-last-big-thing-part1/</link>

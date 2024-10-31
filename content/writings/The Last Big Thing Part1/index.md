@@ -41,7 +41,7 @@ cover:
 
 *This article, the first in a three-part series, explores the landscape of traditional payment systems, from their historical origins to modern digital transformations.*
 
-*The second part will explore the unique advantages of blockchain technology in payments and assess the current state of crypto payments. The final installment will analyze emerging trends and revolutionary possibilities that could reshape how we transfer value in the future.*
+*The <a href="https://larryliu007.github.io/writings/the-last-big-thing-part2/" style="color: #0E97CB;">second part</a> will explore the unique advantages of blockchain technology in payments and assess the current state of crypto payments. The final installment will analyze emerging trends and revolutionary possibilities that could reshape how we transfer value in the future.*
 
 # 1. Introduction
 
@@ -211,7 +211,7 @@ Surprisingly, crypto, particularly stablecoins, is already gaining traction in v
 
 *Source: [The 2023 Global Crypto Adoption Index, Chainalysis](https://www.chainalysis.com/blog/2023-global-crypto-adoption-index/)*
 
-*The next article in this series will explore blockchain's unique advantages in payments: how it opens up financial services to a broader audience and creates a transparent environment where different parties can collaborate efficiently. It will also examine the current state of crypto payments, analyzing both the challenges and opportunities in this emerging space.*
+*The <a href="https://larryliu007.github.io/writings/the-last-big-thing-part2/" style="color: #0E97CB;">next article</a> in this series will explore blockchain's unique advantages in payments: how it opens up financial services to a broader audience and creates a transparent environment where different parties can collaborate efficiently. It will also examine the current state of crypto payments, analyzing both the challenges and opportunities in this emerging space.*
 
 ---
 
