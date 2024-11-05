@@ -30,7 +30,7 @@ UseHugoToc: false
 cover:
     image: "cover.jpg" # image path/url
     alt: "" # alt text
-    caption: "gfdsdfdsf" # display caption under cover
+    caption: "" # display caption under cover
     relative: true # when using page bundles set this to true
     hidden: false # only hide on current single page
 # editPost:
@@ -95,7 +95,7 @@ A card issuer could confirm a transaction as though it has already been settled.
 
 Imagine a future where not only users but also solvers, market makers, and other providers adopt resource locks with a uniform, interoperable standard. In such a scenario, the entire process - from initiating a transaction to routing, fulfilling, and confirming it - could occur in an instant. This would finally bring instant, low-cost, and enriched crypto usage experience on par with that of Web2.
 
-<span style="color: #12B886;">*Fast confirmation: Near-Instant Transaction Confirmations*</span>  
+<span style="color: #12B886;">*Fast confirmation - Near-Instant Transaction Confirmations*</span>  
 <span style="color: #0E97CB;">*Implementations: High-performance chains, Pre-confirmation, etc.*</span>  
 <span style="color: #D73504;">*Issues solved: Double spending, Latency*</span>
 
