@@ -151,7 +151,7 @@ The most significant risk faced by payment providers or card issuers in a non-cu
 
 Is it possible to offer solutions that address all these issues? With the introduction of several new primitives, the answer is now yes.
 
-*The final article in this series will explore emerging trends that could overcome these challenges and revolutionize crypto payments.*
+*The <a href="https://larryliu007.github.io/writings/the-last-big-thing-part3/" style="color: #0E97CB;">final</a> article in this series will explore emerging trends that could overcome these challenges and revolutionize crypto payments.*
 
 ---
 
