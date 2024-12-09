@@ -49,3 +49,24 @@
 .first-entry {
     border-bottom: none !important;
 }
+
+/* Import Noto Serif SC as web font fallback */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+
+/* Target elements containing Chinese characters */
+.post-title.entry-hint-parent:has(:lang(zh)),
+.post-title.entry-hint-parent:matches(:lang(zh)),
+.post-title.entry-hint-parent:has(:lang(zh-CN)),
+.post-title.entry-hint-parent:matches(/[\u4e00-\u9fff]/),
+.post-description:matches(/[\u4e00-\u9fff]/),
+.post-entry .entry-header h2:matches(/[\u4e00-\u9fff]/),
+.post-entry .entry-content:matches(/[\u4e00-\u9fff]/) {
+    font-family: '楷体', 'KaiTi', '楷体_GB2312', 'STKaiti', '华文楷体', 'Kai', 'Kaiti SC', 'Noto Serif SC', serif !important;
+}
+
+/* For inline Chinese text */
+:lang(zh),
+:lang(zh-CN),
+.chinese-text {
+    font-family: '楷体', 'KaiTi', '楷体_GB2312', 'STKaiti', '华文楷体', 'Kai', 'Kaiti SC', 'Noto Serif SC', serif;
+}

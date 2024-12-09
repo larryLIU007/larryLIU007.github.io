@@ -11,8 +11,22 @@
     </image>
     <generator>Hugo -- 0.128.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Oct 2024 10:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 10:30:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/sector/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些关于稳定币在跨境贸易应用的笔记</title>
+      <link>http://localhost:1313/writings/cross-border-payment--stables/</link>
+      <pubDate>Sun, 08 Dec 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/cross-border-payment--stables/</guid>
+      <description>—— 整个稳定币的采用是一个巨大的阳谋。</description>
+    </item>
+    <item>
+      <title>The Last Big Thing - Crypto Payment Part3</title>
+      <link>http://localhost:1313/writings/the-last-big-thing-part3/</link>
+      <pubDate>Tue, 05 Nov 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/the-last-big-thing-part3/</guid>
+      <description>—— It&amp;#39;s not happening until we build it.</description>
+    </item>
     <item>
       <title>The Last Big Thing - Crypto Payment Part2</title>
       <link>http://localhost:1313/writings/the-last-big-thing-part2/</link>

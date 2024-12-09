@@ -52,6 +52,20 @@
 <article class="{{ $class }}" data-tags="{{ delimit .Params.tags "," }}">
 {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
 {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+
+<header class="entry-header">
+  <h2 {{ if findRE "[\u4e00-\u9fff]" .Title }}lang="zh-CN"{{ end }}>
+  {{- .Title }}
+  {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
+  </h2>
+</header>
+{{- if (ne (.Param "hideSummary") true) }}
+<div class="entry-content" {{ if findRE "[\u4e00-\u9fff]" .Summary }}lang="zh-CN"{{ end }}>
+<p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+</div>
+{{- end }}
+
+<!--
 <header class="entry-header">
   <h2>
     {{- .Title }}
@@ -63,6 +77,9 @@
   <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
 </div>
 {{- end }}
+-->
+
+
 {{- if not (.Param "hideMeta") }}
 <footer class="entry-footer">
   {{- partial "post_meta.html" . -}}
