@@ -1,0 +1,27 @@
+<style>
+    .portfolio-company-link,
+    .portfolio-company-link:hover,
+    .portfolio-company-link:focus,
+    .portfolio-company-link:active {
+        text-decoration: none !important;
+        border-bottom: none !important;
+        box-shadow: none !important;
+        color: inherit !important;
+    }
+</style>
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+    {{ $data := split .Inner "\n" }}
+    {{ range $data }}
+    {{ $items := split . "," }}
+    {{ if ge (len $items) 3 }}
+    <div style="width: calc(20% - 16px); min-width: 120px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <div style="width: 100px; height: 100px; display: flex; justify-content: center; align-items: center; overflow: hidden; border-radius: 10px;">
+            <img src="{{ index $items 1 }}" alt="{{ index $items 0 }} Logo" style="width: 100%; height: 100%; object-fit: contain;">
+        </div>
+        <p style="margin-top: 10px; width: 100%; text-align: center; word-wrap: break-word; font-size: 0.9em;">
+            <a href="{{ index $items 2 }}" target="_blank" class="portfolio-company-link" style="text-decoration: none !important; color: inherit !important; border-bottom: none !important; box-shadow: none !important;">{{ index $items 0 }}</a>
+        </p>
+    </div>
+    {{ end }}
+    {{ end }}
+</div>

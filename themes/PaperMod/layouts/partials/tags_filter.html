@@ -1,0 +1,31 @@
+{{ $tags := slice }}
+{{ range .Site.RegularPages }}
+{{ range .Params.tags }}
+{{ $tags = $tags | append . }}
+{{ end }}
+{{ end }}
+{{ $tags = uniq $tags | sort }}
+
+<div class="tags-filter">
+    <span>Filter by tag:</span>
+    <select id="tag-select" onchange="filterByTag(this.value)">
+        <option value="">All</option>
+        {{ range $tags }}
+        <option value="{{ . | urlize }}">{{ . }}</option>
+        {{ end }}
+    </select>
+</div>
+
+<script>
+    function filterByTag(tag) {
+        const articles = document.querySelectorAll('.post-entry');
+        articles.forEach(article => {
+            const articleTags = article.dataset.tags ? article.dataset.tags.split(',') : [];
+            if (tag === '' || articleTags.includes(tag)) {
+                article.style.display = '';
+            } else {
+                article.style.display = 'none';
+            }
+        });
+    }
+</script>

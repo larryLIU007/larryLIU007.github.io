@@ -1,0 +1,72 @@
+.tags-list {
+    margin-bottom: 3px;
+}
+
+.tag-link {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding: 4px 15px;
+    background-color: var(--entry);  /* Matches the blog card background */
+    color: var(--primary);
+    border-radius: var(--radius);
+    font-size: 16px;
+    text-decoration: none;
+    transition: text-decoration 0.3s ease;
+}
+
+.tag-link:hover {
+    text-decoration: wavy;
+}
+
+.tag-link.active {
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 2px;
+}
+
+.dark .tag-link {
+    background-color: var(--entry);
+    color: var(--secondary);
+}
+
+.tags-spacer {
+    height: 12px;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure no unexpected borders */
+.tags-list, .tags-spacer, .post-entry {
+    border: none;
+}
+
+.main {
+    border-top: none !important;
+}
+
+.first-entry {
+    border-bottom: none !important;
+}
+
+/* Import Noto Serif SC as web font fallback */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC&display=swap');
+
+/* Target elements containing Chinese characters */
+.post-title.entry-hint-parent:has(:lang(zh)),
+.post-title.entry-hint-parent:matches(:lang(zh)),
+.post-title.entry-hint-parent:has(:lang(zh-CN)),
+.post-title.entry-hint-parent:matches(/[\u4e00-\u9fff]/),
+.post-description:matches(/[\u4e00-\u9fff]/),
+.post-entry .entry-header h2:matches(/[\u4e00-\u9fff]/),
+.post-entry .entry-content:matches(/[\u4e00-\u9fff]/) {
+    font-family: '楷体', 'KaiTi', '楷体_GB2312', 'STKaiti', '华文楷体', 'Kai', 'Kaiti SC', 'Noto Serif SC', serif !important;
+}
+
+/* For inline Chinese text */
+:lang(zh),
+:lang(zh-CN),
+.chinese-text {
+    font-family: '楷体', 'KaiTi', '楷体_GB2312', 'STKaiti', '华文楷体', 'Kai', 'Kaiti SC', 'Noto Serif SC', serif;
+}

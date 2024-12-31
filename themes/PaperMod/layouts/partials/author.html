@@ -1,0 +1,31 @@
+{{- if or .Params.authors site.Params.authors }}
+{{- $authors := (.Params.authors | default site.Params.authors) }}
+{{- if reflect.IsSlice $authors }}
+{{- $authorString := "" }}
+{{- range $index, $author := $authors }}
+{{- if $index }}
+{{- $authorString = printf "%s,%s" $authorString "&nbsp;" }}
+{{- end }}
+{{- if reflect.IsMap $author }}
+{{- with $author.link }}
+{{- $authorString = printf "%s<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">%s</a>" $authorString . $author.name }}
+{{- else }}
+{{- $authorString = printf "%s%s" $authorString $author.name }}
+{{- end }}
+{{- else }}
+{{- $authorString = printf "%s%s" $authorString $author }}
+{{- end }}
+{{- end }}
+{{- $authorString | safeHTML }}
+{{- else }}
+{{- if reflect.IsMap $authors }}
+{{- with $authors.link }}
+<a href="{{ . }}" target="_blank" rel="noopener noreferrer">{{ $authors.name }}</a>
+{{- else }}
+{{ $authors.name }}
+{{- end }}
+{{- else }}
+{{ $authors }}
+{{- end }}
+{{- end }}
+{{- end }}

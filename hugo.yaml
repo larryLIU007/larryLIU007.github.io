@@ -1,0 +1,145 @@
+baseURL: "https://larryliu007.github.io/"
+title: Larry007's
+pagination:
+  pagerSize: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Larry007's
+  description: "Novelist; Chain Researcher; Thinker; 0.1x Engineer"
+  keywords: [Blog, Portfolio]
+  authors:
+    - name: "Larry007"
+      link: "https://x.com/Larry_007__"
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  orderedTags:
+    - "Sector"
+    - "Project"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon16.png"
+    favicon32x32: "/favicon32.png"
+    apple_touch_icon: "/appletouch.png"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Larry007"
+    icon: /appletouch.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Larry007
+    subtitle: Novelist; Chain Researcher; Thinker; 0.1x Engineer
+    imageUrl: "/profile.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Writings
+        url: /writings/
+      - name: Backings
+        url: /backings
+
+  socialIcons: # optional
+    - name: x
+      url: "https://x.com/Larry_007__"
+    - name: telegram
+      url: "https://t.me/LarryLIU007"
+
+  social:  # Add this section
+    x: "https://x.com/Larry_007__"
+    telegram: "https://t.me/LarryLIU007"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Welcome to Larry's!🧟‍♂️"
+    Content: |
+
+  analytics:
+    google:
+      SiteVerificationTag: "G-DTKJNR73EQ"
+    bing:
+      SiteVerificationTag: "LarryNumber"
+    yandex:
+      SiteVerificationTag: "LarryNumber"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+#  editPost:
+#    URL: "https://github.com/<path_to_repo>/content"
+#    Text: "Suggest Changes" # edit text
+#    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: writings
+      name: Writings
+      url: /writings/
+      weight: 1
+    - identifier: backings
+      name: Backings
+      url: /backings/
+      weight: 2
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

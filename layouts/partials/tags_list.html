@@ -1,0 +1,50 @@
+{{ if eq .Title "Writings" }}
+{{ $orderedTags := .Site.Params.orderedTags }}
+{{ $allTags := slice }}
+{{ range .Site.RegularPages }}
+{{ range .Params.tags }}
+{{ $allTags = $allTags | append . }}
+{{ end }}
+{{ end }}
+{{ $allTags = uniq $allTags }}
+
+<div class="tags-list">
+    <a href="#" class="tag-link" onclick="filterPosts('all'); return false;">All</a>
+    {{ range $orderedTags }}
+    {{ if in $allTags . }}
+    <a href="#" class="tag-link" onclick="filterPosts('{{ . }}'); return false;">#{{ . }}</a>
+    {{ end }}
+    {{ end }}
+    {{ range $allTags }}
+    {{ if not (in $orderedTags .) }}
+    <a href="#" class="tag-link" onclick="filterPosts('{{ . }}'); return false;">#{{ . }}</a>
+    {{ end }}
+    {{ end }}
+</div>
+
+<div class="tags-spacer"></div>
+
+<script>
+    function filterPosts(tag) {
+        const articles = document.querySelectorAll('.post-entry');
+        const tags = document.querySelectorAll('.tag-link');
+
+        tags.forEach(t => t.classList.remove('active'));
+        document.querySelector(`.tag-link[onclick*="${tag}"]`).classList.add('active');
+
+        articles.forEach(article => {
+            const articleTags = article.dataset.tags ? article.dataset.tags.split(',').map(t => t.trim()) : [];
+            if (tag === 'all' || articleTags.includes(tag)) {
+                article.style.display = '';
+            } else {
+                article.style.display = 'none';
+            }
+        });
+    }
+
+    // Set 'All' as active by default
+    document.addEventListener('DOMContentLoaded', function() {
+        filterPosts('all');
+    });
+</script>
+{{ end }}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sector on Larry007&#39;s</title>
+    <link>http://localhost:1313/tags/sector/</link>
+    <description>Recent content in Sector on Larry007&#39;s</description>
+    <image>
+      <title>Larry007&#39;s</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.140.1</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Dec 2024 10:30:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sector/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>一些关于稳定币在跨境贸易中应用的笔记</title>
+      <link>http://localhost:1313/writings/cross-border-payment--stables/</link>
+      <pubDate>Sun, 08 Dec 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/cross-border-payment--stables/</guid>
+      <description>—— 整个稳定币的采用是一个巨大的阳谋。</description>
+    </item>
+    <item>
+      <title>The Last Big Thing - Crypto Payment Part3</title>
+      <link>http://localhost:1313/writings/the-last-big-thing-part3/</link>
+      <pubDate>Tue, 05 Nov 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/the-last-big-thing-part3/</guid>
+      <description>—— It&amp;#39;s not happening until we build it.</description>
+    </item>
+    <item>
+      <title>The Last Big Thing - Crypto Payment Part2</title>
+      <link>http://localhost:1313/writings/the-last-big-thing-part2/</link>
+      <pubDate>Wed, 30 Oct 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/the-last-big-thing-part2/</guid>
+      <description>—— It&amp;#39;s not happening until we build it.</description>
+    </item>
+    <item>
+      <title>The Last Big Thing - Crypto Payment Part1</title>
+      <link>http://localhost:1313/writings/the-last-big-thing-part1/</link>
+      <pubDate>Mon, 28 Oct 2024 10:30:00 +0800</pubDate>
+      <guid>http://localhost:1313/writings/the-last-big-thing-part1/</guid>
+      <description>—— It&amp;#39;s not happening until we build it.</description>
+    </item>
+    <item>
+      <title>Need for Speed: Zero Knowledge</title>
+      <link>http://localhost:1313/writings/need-for-speed/</link>
+      <pubDate>Mon, 05 Sep 2022 11:30:03 +0000</pubDate>
+      <guid>http://localhost:1313/writings/need-for-speed/</guid>
+      <description>Hardware acceleration is needed to overcome computational bottlenecks and enable widespread adoption.</description>
+    </item>
+  </channel>
+</rss>
